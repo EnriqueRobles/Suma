@@ -1,0 +1,31 @@
+package fes.aragon.inicio;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author enrique
+ */
+public class Suma_Dos_Enteros {
+    public static void main(String[] args) {
+ 
+         int x=0,y=0,r=0;
+         
+         Scanner entrada=new Scanner(System.in);
+         
+         System.out.println("Ingresa el primer numero entero");
+         x=entrada.nextInt();
+         
+         System.out.println("Ingresa el Segundo numero entero");
+         y=entrada.nextInt();
+         
+         if(x<=100 && y<=100){
+         r=x+y;
+          System.out.println("El resultado es: "+r);    
+         }else{
+             System.out.println("Uno de los dos numeros es incorrecto");
+         }
+         
+    }
+    
+}
